@@ -1,0 +1,214 @@
+
+--- Performance for feature: workclass ---
+  Value: ?
+    Precision: 0.7222 | Recall: 0.3095 | F1: 0.4333
+  Value: Federal-gov
+    Precision: 0.7027 | Recall: 0.7429 | F1: 0.7222
+  Value: Local-gov
+    Precision: 0.7087 | Recall: 0.6636 | F1: 0.6854
+  Value: Private
+    Precision: 0.7705 | Recall: 0.6104 | F1: 0.6812
+  Value: Self-emp-inc
+    Precision: 0.7731 | Recall: 0.7797 | F1: 0.7764
+  Value: Self-emp-not-inc
+    Precision: 0.6667 | Recall: 0.4841 | F1: 0.5609
+  Value: State-gov
+    Precision: 0.7656 | Recall: 0.6712 | F1: 0.7153
+  Value: Without-pay
+    Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+--- Performance for feature: education ---
+  Value: 10th
+    Precision: 0.5000 | Recall: 0.0833 | F1: 0.1429
+  Value: 11th
+    Precision: 1.0000 | Recall: 0.3636 | F1: 0.5333
+  Value: 12th
+    Precision: 1.0000 | Recall: 0.4000 | F1: 0.5714
+  Value: 1st-4th
+    Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+  Value: 5th-6th
+    Precision: 1.0000 | Recall: 0.0000 | F1: 0.0000
+  Value: 7th-8th
+    Precision: 1.0000 | Recall: 0.0000 | F1: 0.0000
+  Value: 9th
+    Precision: 1.0000 | Recall: 0.0000 | F1: 0.0000
+  Value: Assoc-acdm
+    Precision: 0.6327 | Recall: 0.6596 | F1: 0.6458
+  Value: Assoc-voc
+    Precision: 0.6863 | Recall: 0.5556 | F1: 0.6140
+  Value: Bachelors
+    Precision: 0.7570 | Recall: 0.7822 | F1: 0.7694
+  Value: Doctorate
+    Precision: 0.8197 | Recall: 0.8772 | F1: 0.8475
+  Value: HS-grad
+    Precision: 0.7080 | Recall: 0.2812 | F1: 0.4025
+  Value: Masters
+    Precision: 0.8125 | Recall: 0.8792 | F1: 0.8445
+  Value: Preschool
+    Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+  Value: Prof-school
+    Precision: 0.8427 | Recall: 0.8929 | F1: 0.8671
+  Value: Some-college
+    Precision: 0.6816 | Recall: 0.4946 | F1: 0.5732
+
+--- Performance for feature: marital-status ---
+  Value: Divorced
+    Precision: 0.8974 | Recall: 0.3398 | F1: 0.4930
+  Value: Married-AF-spouse
+    Precision: 0.7500 | Recall: 1.0000 | F1: 0.8571
+  Value: Married-civ-spouse
+    Precision: 0.7448 | Recall: 0.6763 | F1: 0.7089
+  Value: Married-spouse-absent
+    Precision: 0.8000 | Recall: 0.5000 | F1: 0.6154
+  Value: Never-married
+    Precision: 0.8065 | Recall: 0.2427 | F1: 0.3731
+  Value: Separated
+    Precision: 1.0000 | Recall: 0.3158 | F1: 0.4800
+  Value: Widowed
+    Precision: 0.6000 | Recall: 0.1579 | F1: 0.2500
+
+--- Performance for feature: occupation ---
+  Value: ?
+    Precision: 0.7222 | Recall: 0.3095 | F1: 0.4333
+  Value: Adm-clerical
+    Precision: 0.6531 | Recall: 0.3333 | F1: 0.4414
+  Value: Armed-Forces
+    Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+  Value: Craft-repair
+    Precision: 0.6979 | Recall: 0.3702 | F1: 0.4838
+  Value: Exec-managerial
+    Precision: 0.7783 | Recall: 0.7960 | F1: 0.7870
+  Value: Farming-fishing
+    Precision: 0.6667 | Recall: 0.2143 | F1: 0.3243
+  Value: Handlers-cleaners
+    Precision: 0.6000 | Recall: 0.2500 | F1: 0.3529
+  Value: Machine-op-inspct
+    Precision: 0.6842 | Recall: 0.2766 | F1: 0.3939
+  Value: Other-service
+    Precision: 0.6000 | Recall: 0.1154 | F1: 0.1935
+  Value: Priv-house-serv
+    Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+  Value: Prof-specialty
+    Precision: 0.7879 | Recall: 0.7959 | F1: 0.7919
+  Value: Protective-serv
+    Precision: 0.5312 | Recall: 0.4048 | F1: 0.4595
+  Value: Sales
+    Precision: 0.7470 | Recall: 0.6458 | F1: 0.6927
+  Value: Tech-support
+    Precision: 0.7000 | Recall: 0.6863 | F1: 0.6931
+  Value: Transport-moving
+    Precision: 0.7273 | Recall: 0.3750 | F1: 0.4948
+
+--- Performance for feature: relationship ---
+  Value: Husband
+    Precision: 0.7516 | Recall: 0.6855 | F1: 0.7170
+  Value: Not-in-family
+    Precision: 0.8451 | Recall: 0.3191 | F1: 0.4633
+  Value: Other-relative
+    Precision: 0.6000 | Recall: 0.3750 | F1: 0.4615
+  Value: Own-child
+    Precision: 0.3333 | Recall: 0.0588 | F1: 0.1000
+  Value: Unmarried
+    Precision: 1.0000 | Recall: 0.2444 | F1: 0.3929
+  Value: Wife
+    Precision: 0.6953 | Recall: 0.6224 | F1: 0.6568
+
+--- Performance for feature: race ---
+  Value: Amer-Indian-Eskimo
+    Precision: 0.8333 | Recall: 0.5000 | F1: 0.6250
+  Value: Asian-Pac-Islander
+    Precision: 0.7857 | Recall: 0.7097 | F1: 0.7458
+  Value: Black
+    Precision: 0.6667 | Recall: 0.5231 | F1: 0.5862
+  Value: Other
+    Precision: 0.7500 | Recall: 0.5000 | F1: 0.6000
+  Value: White
+    Precision: 0.7534 | Recall: 0.6162 | F1: 0.6780
+
+--- Performance for feature: sex ---
+  Value: Female
+    Precision: 0.7047 | Recall: 0.4506 | F1: 0.5497
+  Value: Male
+    Precision: 0.7579 | Recall: 0.6435 | F1: 0.6960
+
+--- Performance for feature: native-country ---
+  Value: ?
+    Precision: 0.7778 | Recall: 0.6774 | F1: 0.7241
+  Value: Cambodia
+    Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+  Value: Canada
+    Precision: 0.6000 | Recall: 0.7500 | F1: 0.6667
+  Value: China
+    Precision: 1.0000 | Recall: 0.7500 | F1: 0.8571
+  Value: Columbia
+    Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+  Value: Cuba
+    Precision: 0.8000 | Recall: 0.8000 | F1: 0.8000
+  Value: Dominican-Republic
+    Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+  Value: Ecuador
+    Precision: 1.0000 | Recall: 0.5000 | F1: 0.6667
+  Value: El-Salvador
+    Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+  Value: England
+    Precision: 0.8000 | Recall: 1.0000 | F1: 0.8889
+  Value: France
+    Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+  Value: Germany
+    Precision: 0.7857 | Recall: 0.8462 | F1: 0.8148
+  Value: Greece
+    Precision: 1.0000 | Recall: 0.0000 | F1: 0.0000
+  Value: Guatemala
+    Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+  Value: Haiti
+    Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+  Value: Honduras
+    Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+  Value: Hong
+    Precision: 0.5000 | Recall: 1.0000 | F1: 0.6667
+  Value: Hungary
+    Precision: 1.0000 | Recall: 0.5000 | F1: 0.6667
+  Value: India
+    Precision: 0.7778 | Recall: 0.8750 | F1: 0.8235
+  Value: Iran
+    Precision: 0.5000 | Recall: 0.2000 | F1: 0.2857
+  Value: Ireland
+    Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+  Value: Italy
+    Precision: 0.5714 | Recall: 1.0000 | F1: 0.7273
+  Value: Jamaica
+    Precision: 0.0000 | Recall: 1.0000 | F1: 0.0000
+  Value: Japan
+    Precision: 1.0000 | Recall: 0.7500 | F1: 0.8571
+  Value: Laos
+    Precision: 1.0000 | Recall: 0.0000 | F1: 0.0000
+  Value: Mexico
+    Precision: 0.5000 | Recall: 0.3333 | F1: 0.4000
+  Value: Nicaragua
+    Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+  Value: Peru
+    Precision: 1.0000 | Recall: 0.0000 | F1: 0.0000
+  Value: Philippines
+    Precision: 0.9167 | Recall: 0.6875 | F1: 0.7857
+  Value: Poland
+    Precision: 0.4000 | Recall: 1.0000 | F1: 0.5714
+  Value: Portugal
+    Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+  Value: Puerto-Rico
+    Precision: 1.0000 | Recall: 0.3333 | F1: 0.5000
+  Value: Scotland
+    Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+  Value: South
+    Precision: 0.0000 | Recall: 0.0000 | F1: 0.0000
+  Value: Taiwan
+    Precision: 0.8000 | Recall: 1.0000 | F1: 0.8889
+  Value: Thailand
+    Precision: 0.0000 | Recall: 1.0000 | F1: 0.0000
+  Value: Trinadad&Tobago
+    Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+  Value: United-States
+    Precision: 0.7517 | Recall: 0.6077 | F1: 0.6721
+  Value: Vietnam
+    Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+  Value: Yugoslavia
+    Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
