@@ -1,18 +1,9 @@
-import json
+from typing import Any, Dict
 
-import requests
-
-# TODO: send a GET using the URL http://127.0.0.1:8000
-r = None # Your code here
-
-# TODO: print the status code
-# print()
-# TODO: print the welcome message
-# print()
+from local_api_client import get_root, post_data, parse_json_safe
 
 
-
-data = {
+data: Dict[str, Any] = {
     "age": 37,
     "workclass": "Private",
     "fnlgt": 178356,
@@ -29,10 +20,16 @@ data = {
     "native-country": "United-States",
 }
 
-# TODO: send a POST using the data above
-r = None # Your code here
 
-# TODO: print the status code
-# print()
-# TODO: print the result
-# print()
+def main() -> None:
+    r = get_root()
+    print(r.status_code)
+    print(r.text)
+
+    r = post_data(data, path="/data/")
+    print(r.status_code)
+    print(parse_json_safe(r))
+
+
+if __name__ == "__main__":
+    main()
